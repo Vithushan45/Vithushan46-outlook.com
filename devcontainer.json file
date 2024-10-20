@@ -1,0 +1,29 @@
+{
+
+"name": "Ruby",
+
+"image": "mcr.microsoft.com/devcontainers/ruby: 0-3.2",
+
+"features": {
+
+"ghcr.io/devcontainers/features/ruby:1": {}
+
+},
+
+"settings": {
+
+"terminal.integrated.defaultProfile.linux": "bash"
+
+},
+
+"postCreateCommand": "bundle install",
+
+"extensions": [
+
+"rebornix.Ruby"
+
+],
+
+"remoteUser": "vscode"
+
+}
